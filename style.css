@@ -1,0 +1,104 @@
+body{
+    background-color: #394648;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    clear:left;
+    margin: 1em;
+}
+
+h2{
+    text-align: center;
+    clear:left;
+    margin: 1em;
+    margin-top: 3em;
+}
+
+h3{
+    text-align:center;
+		padding: .5em;
+    margin: 1em;
+		margin-bottom: .3em;
+		border-bottom: .2em solid black;
+		
+}
+
+ul{
+    padding: 1.5em;
+    text-align: center;
+    overflow: auto;
+}
+
+li{
+    list-style-type: none;
+		background-color: #776045;
+		color: white;
+		padding: .3em 1em;
+		margin: .5em;
+		float:right;
+		clear: right;
+		border-radius: .2em;
+}
+
+a{
+    font-weight: bolder;
+    font-size: 120%;
+		font-style: italic;
+    text-decoration: none;
+		color: white;
+}
+
+li:hover{
+    border: .1em solid black;
+}
+
+p{
+    text-indent: 2em;
+    margin: .1em 3em;
+}
+
+div{
+	background-color: #F8E9E9;
+	color: black;
+}
+
+.extreme{
+	margin: 3em;
+	clear: both;
+	padding: 1em;
+	border-radius: .5em;
+	font-style: oblique;
+	color: black;
+}
+
+#head1{
+	opacity: .5;
+}
+
+#navzone{
+	
+	width: 15%;
+	float: right;
+	margin: 1em;
+	margin-right: 5%;
+	padding: 1em;
+	border-radius: .4em;
+	display: table;
+	
+}
+
+.content{
+	width: 60%;
+	margin: 1em;
+	margin-left: 5%;
+	float: left;
+	border-radius: .4em;
+}
+
+#tehlulz{
+	
+	text-decoration: underline;
+	
+}
