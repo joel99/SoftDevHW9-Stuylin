@@ -1,5 +1,5 @@
 body{
-    background-color: #E4F1FE;
+    background-color: #394648;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -18,37 +18,85 @@ h2{
 
 h3{
     text-align:center;
-    margin: .25em;
+		padding: .5em;
+    margin: 1em;
+		margin-bottom: .3em;
+		border-bottom: .2em solid black;
+		
 }
 
 ul{
     padding: 1.5em;
-    background-color: #050107;
     text-align: center;
-    clear: right;
 }
 
 li{
     list-style-type: none;
-  
+		background-color: #776045;
+		color: white;
+		padding: .3em 1em;
+		margin: .5em;
+		float:right;
+		clear: right;
+		border-radius: .2em;
 }
 
 a{
-    padding: .5em;
-    background-color: #333333;
-    color: white;
     font-weight: bolder;
     font-size: 120%;
-    margin: .5em 5em;
-    border-radius: .2em;
+		font-style: italic;
     text-decoration: none;
+		color: white;
 }
 
-a:hover{
-    border-bottom: medium none #333333;
+li:hover{
+    border: .1em solid black;
 }
 
 p{
     text-indent: 2em;
     margin: .1em 3em;
+}
+
+div{
+	background-color: #F8E9E9;
+	color: black;
+}
+
+.extreme{
+	margin: 3em;
+	clear: both;
+	padding: 1em;
+	border-radius: .5em;
+	font-style: oblique;
+	color: black;
+}
+
+#head1{
+	opacity: .5;
+}
+
+.navzone{
+	
+	width: 15%;
+	float: right;
+	margin: 1em;
+	margin-right: 5%;
+	padding: 1em;
+	border-radius: .4em;
+	
+}
+
+.content{
+	width: 60%;
+	margin: 1em;
+	margin-left: 5%;
+	float: left;
+	border-radius: .4em;
+}
+
+#tehlulz{
+	
+	text-decoration: underline;
+	
 }
