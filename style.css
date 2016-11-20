@@ -1,104 +1,127 @@
 body{
-    background-color: #394648;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #D3D6CB;
+    font-family: "Raleway", Helvetica, sans-serif;
 }
 
-h1{
-    text-align: center;
-    clear:left;
-    margin: 1em;
-}
-
-h2{
-    text-align: center;
-    clear:left;
-    margin: 1em;
-    margin-top: 3em;
-}
-
-h3{
-    text-align:center;
-		padding: .5em;
-    margin: 1em;
-		margin-bottom: .3em;
-		border-bottom: .2em solid black;
-		
+#wrapper{
+		width: 85%;
+		margin: auto;
+		margin-top: 2em;
 }
 
 ul{
-    padding: 1.5em;
+    padding: 0em;
+		margin: 0em;
+		margin-top: 1em;
+		list-style-type: none;
     text-align: center;
     overflow: auto;
 }
 
 li{
-    list-style-type: none;
-		background-color: #776045;
-		color: white;
-		padding: .3em 1em;
+		width: 35%;
 		margin: .5em;
+		margin-right: .8em;
 		float:right;
 		clear: right;
 		border-radius: .2em;
+		color: #B1ABB5;
+		box-shadow: .2em .2em #B1ABB5;
+		transition: color 1s, box-shadow 1s;
 }
 
 a{
     font-weight: bolder;
     font-size: 120%;
-		font-style: italic;
     text-decoration: none;
-		color: white;
+		color: inherit;
+		display: block;
+		padding: .5em .8em;
 }
 
 li:hover{
-    border: .1em solid black;
+		color: #403E42;
+    box-shadow: .2em .2em #403E42;
 }
 
-p{
-    text-indent: 2em;
-    margin: .1em 3em;
+#navContent{
+	width: 100%;
+	box-shadow: .4em .35em rgba(193, 196, 186, .5);
+	transition: box-shadow 1s;
 }
 
-div{
-	background-color: #F8E9E9;
-	color: black;
+#navContent:hover{
+	box-shadow: .5em .5em rgba(193, 196, 186, 1);
 }
 
-.extreme{
-	margin: 3em;
+#navHead{
+	text-align: center;
+	letter-spacing: .05em;
 	clear: both;
-	padding: 1em;
-	border-radius: .5em;
-	font-style: oblique;
-	color: black;
+	font-family: "Playfair Display", serif;
+	font-size: 150%;
 }
 
-#head1{
-	opacity: .5;
-}
-
-#navzone{
+#navbar{
 	
-	width: 15%;
+	width: 16%;
 	float: right;
-	margin: 1em;
-	margin-right: 5%;
-	padding: 1em;
-	border-radius: .4em;
-	display: table;
+	display: inline-block;
+	margin: 2em;
+	border-radius: .2em;
+	position: fixed;
 	
 }
 
 .content{
+	font-family: Raleway, sans-serif;
+	background-color: #FBFFF1;
+	box-shadow: .2em .2em #C1C4BA;
+	color: black;
 	width: 60%;
 	margin: 1em;
 	margin-left: 5%;
 	float: left;
 	border-radius: .4em;
+	padding: .5em;
+	padding-left: 1em;
+	overflow: auto;
 }
 
-#tehlulz{
+.heading{
+	font-family: "Playfair Display", serif;
+	font-size: 200%;
+	margin: 1em;
+	letter-spacing: .07em;
+}
+
+.entry{
+	margin: 1em;
+	margin-left: 2em;
+	padding: .5em;
+}
+
+.entryHead{
+	font-family: "Playfair Display", serif;
+	font-size: 135%;
+}
+
+.entryContent{
+	text-indent: 1em;
 	
-	text-decoration: underline;
-	
+}
+
+.break{
+	display: block;
+	width: 95%;
+	margin: auto;
+	height: .1em;
+	background-color: #333333;
+}
+
+#circle {
+	width: 6.25em;
+	height: 6.25em;
+	background-color: #FBFFF1;
+	border-radius: 3.125em;
 }
